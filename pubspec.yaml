@@ -29,22 +29,21 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   agora_rtc_engine: ^6.2.6
+#  agora_uikit:
   cupertino_icons: ^1.0.2
   firebase_auth: ^4.17.5
   firebase_core: ^2.25.4
   flutter:
     sdk: flutter
   get: ^4.6.6
-  lottie: ^3.1.0
   google_sign_in: ^6.2.1
+  lottie: ^3.1.0
+  permission_handler: ^11.3.0
+  # wakelock: ^0.6.2
+  socket_io_client: ^2.0.3+1
 
 dev_dependencies:
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints:
   flutter_test:
     sdk: flutter
 

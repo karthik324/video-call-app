@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:video_call_app/core/constants.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key, required this.onTap, required this.child, required this.bgColor,});
-  final VoidCallback onTap;
+  const CustomButton({super.key,required this.onTap, required this.child, required this.bgColor,});
+  final VoidCallback? onTap;
   final Widget child;
   final Color bgColor;
 
